@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "tailwindcss": "^1.8.10",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
@@ -33,6 +37,12 @@
       "parser": "babel-eslint"
     },
     "rules": {}
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "tailwindcss": {}
+    }
   },
   "browserslist": [
     "> 1%",
